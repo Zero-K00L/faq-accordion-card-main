@@ -260,22 +260,22 @@ body {
     }
 
     .faq_arrow {
-        position: relative;
-        left: 33px;
+        position: absolute;
+        left: 311px;
         margin: 0;
     }
 
     .arrow_2 {
-        position: relative;
-        left: 37px;
+
     }
 
     .arrow_3 {
-        left: 96px;
+    
     }
 
     .arrow_4 {
-        left: 60px;
+        
+        
     }
 
 }
