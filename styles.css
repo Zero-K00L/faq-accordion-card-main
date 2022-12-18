@@ -259,4 +259,16 @@ body {
         width: 342px;
     }
 
+    .faq_arrow {
+        margin-left: 75px;
+    }
+
+    .arrow_3 {
+        left: 63px;
+    }
+
+    .arrow_4 {
+        left: 60px;
+    }
+
 }
