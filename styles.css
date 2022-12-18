@@ -260,11 +260,18 @@ body {
     }
 
     .faq_arrow {
-        margin-left: 75px;
+        position: relative;
+        left: 33px;
+        margin: 0;
+    }
+
+    .arrow_2 {
+        position: relative;
+        left: 37px;
     }
 
     .arrow_3 {
-        left: 63px;
+        left: 96px;
     }
 
     .arrow_4 {
