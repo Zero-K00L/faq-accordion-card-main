@@ -17,9 +17,11 @@ for (e in questions) {
                 
                 console.log(index);
                 arrows[index].classList.add('active');
+                answers[index].classList.remove('hidden');
             }
             else {
                 arrows[index].classList.remove('active');
+                answers[index].classList.add('hidden');
             }
         }
 
