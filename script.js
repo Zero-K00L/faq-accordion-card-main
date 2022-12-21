@@ -2,7 +2,7 @@ const questions = document.querySelectorAll('.faq_title');
 const answers = document.querySelectorAll('.faq_description');
 const arrows = document.querySelectorAll('.faq_arrow');
 
-// Bold the title text
+// Bolds the title text, animates arrows and reveals answers.
 for(e in questions) {
     questions[e].onclick = function () { 
         questions.forEach(function(btn) {  
