@@ -89,7 +89,7 @@ body {
 .faq_title {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 13px;
+    font-size: 0.8125rem;
     display: inline;
     color: var(--veryDarkGrayishBlue);
     transition: color 100ms ease-in-out;
@@ -126,7 +126,7 @@ body {
 }
 
 .faq_description {
-    font-size: 12px;
+    font-size: 0.75rem;
     width: 82%;
     color: var(--darkGrayishBlue);
 }
@@ -239,7 +239,7 @@ body {
     .faq_title {
         position: relative;
         left: 3px;
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .divider {
