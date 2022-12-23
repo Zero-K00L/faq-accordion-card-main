@@ -129,6 +129,7 @@ body {
     font-size: 0.75rem;
     width: 82%;
     color: var(--darkGrayishBlue);
+    animation: open 100ms linear forwards;
 }
 
 .divider {
@@ -152,6 +153,24 @@ body {
 
 .bold {
     font-weight: bold;
+}
+
+@keyframes open {
+    0% {
+        height: 0px;
+    }
+
+    30% {
+        height: 10px;
+    }
+
+    60% {
+        height: 30px;
+    }
+
+    90% {
+        height: auto;
+    }
 }
 
 /* Media Queries   */ 
