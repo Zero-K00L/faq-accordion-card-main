@@ -14,10 +14,14 @@ for(e in questions) {
             if(questions[index].classList.contains('bold')) {
                 console.log(index);
                 arrows[index].classList.add('active');
+                answers[index].classList.remove('close');
                 answers[index].classList.remove('hidden');
+                answers[index].classList.add('open');
             }
             else {
                 arrows[index].classList.remove('active');
+                arrows[index].classList.remove('open');
+                answers[index].classList.add('close');
                 answers[index].classList.add('hidden');
             }
         }
